@@ -1,0 +1,29 @@
+.bg-green {
+    background-color: #1A4631;
+}
+
+.bg-text-light {
+    color: white;
+}
+
+.bg-lightColor {
+    background-color: #139600;
+}
+
+.nav-link {
+    color: rgb(249, 249, 249);
+    
+}
+.mitad{
+    background-image: url(../image.png);
+    width: 99%;
+    height: 200px;
+    background-size: contain;
+   
+
+
+
+
+    
+
+}

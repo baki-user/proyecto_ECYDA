@@ -1,0 +1,81 @@
+.bg-green{
+    background-color: #1A4631;
+}
+.bg-text-light{
+    color: white;
+}
+.bg-lightColor{
+    background-color: #139600;
+}
+.nav-link{
+    color: rgb(249, 249, 249);
+    
+}
+
+.edificios{
+    background-image: url(./edificio.gif);
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+   
+
+
+
+
+    
+
+}
+.bg-green{
+    background-color: #1A4631;
+}
+.bg-text-light{
+    color: white;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+  
+}
+
+
+.side-bar {
+  width: 40px;
+  height: 70%;
+  background: #cfe2ff; 
+  border-radius: 6px;
+ 
+}
+
+.left {
+  left: 100px;
+}
+
+.right {
+  right: 70px;
+}
+
+
+.content-box {
+  width: 60%;
+  height: 50%;
+  border: 3px solid #a9c9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+
+.coming-text {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: black;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
