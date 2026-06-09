@@ -7,9 +7,9 @@ export const Header = ({ headerColor, header2Color }) => {
             <div className="Header ">
                 <nav className={`navbar navbar-expand-lg  ${headerColor}`} data-bs-theme="dark">
                     <div className="container ">
-                        <a className="navbar-brand" href="#">
-                            <img src="./logo-ecyda.gif" alt="Bootstrap" width="70" />
-                        </a>
+                        <Link className="navbar-brand" to="/home">
+                            <img src="./logo-blanco.png" alt="Bootstrap" width="70" />
+                        </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
