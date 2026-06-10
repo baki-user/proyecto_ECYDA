@@ -47,12 +47,13 @@ export const Productos = () => {
 
           </div>
         </div>
-      </section>
-      <section className="p-4">
+        <section className="p-4">
         <div className="categoria container fw-bold  rounded-3">
-          <p className="d-flex justify-content-center h-100 align-items-center text-white fs-5">CATEGORIAS</p>
+          <p className="d-flex justify-content-center h-100 align-items-center text-white fs-5">TIENDA</p>
         </div>
       </section>
+      </section>
+  
       <section className="tarjeta container p-3">
         <div className="row">
           <div className="col p-1">
