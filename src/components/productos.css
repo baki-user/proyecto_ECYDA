@@ -24,11 +24,14 @@
     background-position: center;
 }
 .categoria{
-     width: 15%;
+     width: 35%;
      height: 5vh;
     background-color: #139600;
 }
 .ban{
     position: relative;
     z-index: 1;
+}
+.algunos{
+    font-size: 1.1rem;
 }
