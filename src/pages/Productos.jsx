@@ -19,21 +19,21 @@ export const Productos = () => {
         <img className="img2 position-absolute p-1" width="140" src="./circulo.gif" alt="" />
         </div>
       </div>
-
-      <div className="cuadro p-5 d-flex justify-content-center h-100" width="100">
+      <div className="div p-5 h-100" width="100">
+      <div className="cuadro p-5 d-flex justify-content-center h-50" width="100">
         <div className="container">
-          <p className="tex position-relative m-5 p-5 m">Bienvenido a la tienda de ECYDA, tu espacio digital para descubrir productos unicos, seleccionados con oasion y pensados para ti. Aqui,
-            la calidad se encuentra con la comodidad de comprar desde donde estes. Explora, elige y deja que lo mejor llegue a tu puerta. k </p>
+          <p className="tex fw-bold position-relative m-5 p-5 m" style={{ color: "#616161"  }}>Bienvenido a la tienda de ECYDA, un espacio donde la creatividad y la innovación se unen para dar vida a mundos digitales únicos. Nos especializamos en el diseño y la venta de escenarios y personajes en 3D, creados con atención al detalle y pensados para enriquecer proyectos de videojuegos, animación, realidad virtual, contenido digital y narrativas interactivas. En ECYDA encontrarás recursos de alta calidad que te permitirán construir experiencias visuales impactantes, desarrollar historias memorables y materializar tus ideas en entornos tridimensionales.</p>
         </div>
       </div>
+      </div>
       <section className="tarjetas container flex-column d-flex justify-content-center" >
-        <p className="algunos d-flex justify-content-center p-4 fw-bold">Algunos de nuestros productos</p>
+        <p className="algunos d-flex justify-content-center p-4 fw-bold" style={{ color: "#616161"  }}>Algunos de nuestros productos</p>
         <div className="row">
           <div className="col p-2">
             <div className="card m-auto" style={{ width: "30rem" }}>
               <img className="img4 m-auto" width="190" src="./mata.gif" alt="" />
               <div className="card-body">
-                <p className="card-text d-flex justify-content-center">Macetas</p>
+                <p className="card-text d-flex justify-content-center" style={{ color: "#616161"  }}>ESCENARIOS 3D</p>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ export const Productos = () => {
             <div className="card m-auto" style={{ width: "30rem" }}>
               <img className="img4 m-auto" width="190" src="./porcelana1.gif" alt="" />
               <div className="card-body">
-                <p className="card-text d-flex justify-content-center">Porcelana</p>
+                <p className="card-text d-flex justify-content-center" style={{ color: "#616161"  }}>PERSONAJES 3D</p>
               </div>
             </div>
 
