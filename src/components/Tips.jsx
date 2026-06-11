@@ -4,7 +4,7 @@ export const Tips = ({fcolor, fcolor2}) => {
         <div className={`${fcolor}`} style={{minWidth: "400px"}}>
             <div className="container">
             <h1 className="text-center"style={{ color: "#9c8566" }}>Tips para reducir el daño ambiental</h1>
-            <div className="row d-flex justify-content-center gap-3 gap-md-0">
+            <div className="row d-flex justify-content-center gap-3 gap-md-0 mt-4">
                 <div className="col-8 col-lg-4">
                     <div className="card">
                         <img src="./cora.png" alt="Bootstrap" />

@@ -3,8 +3,8 @@ export const Datos = ({ focolor, focolor2 }) => {
     return (
         <div className="card"style={{ minWidth: "400px" }}>
             <div className= "container" >
-                <h1 className="text-center"style={{ color: "#669c6c" }}>Datos curiosos sobre el calentamiento global</h1>
-                <div className="row d-flex justify-content-center gap-3 gap-md-0">
+                <h1 className="text-center mt-4"style={{ color: "#669c6c" }}>Datos curiosos sobre el calentamiento global</h1>
+                <div className="row d-flex justify-content-center gap-3 gap-md-0 mt-4">
                     <div className="col-8 col-lg-4" style={{minWidth: "200px"}}>
                         <div className={` card ${focolor}`}>
                             <div className="container d-flex justify-content-center mt-4" >

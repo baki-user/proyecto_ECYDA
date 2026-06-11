@@ -7,7 +7,7 @@ export const Header = ({ headerColor, header2Color }) => {
             <div className="Header ">
                 <nav className={`navbar navbar-expand-lg  ${headerColor}`} data-bs-theme="dark">
                     <div className="container ">
-                        <Link className="navbar-brand" to="/home">
+                        <Link className="navbar-brand" to="/">
                             <img src="./logo-blanco.png" alt="Bootstrap" width="70" />
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

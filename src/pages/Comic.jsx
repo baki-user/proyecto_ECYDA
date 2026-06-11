@@ -94,14 +94,14 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
 
             <div className="container mt-4">
                 <div className="card-body text-center " >
-                    <p>PERSONAJES.k</p>
+                    <p>PERSONAJES.</p>
                 </div>
                 <div className="row justify-content-center gap-4">
 
                     <div className="col-md-4 d-flex justify-content-center">
                         <div className="card">
                             <img
-                                src="../asher.gif"
+                                src="../ASHER.png"
                                 className="card-img-top"
                                 alt="Asher"
                             />
@@ -114,7 +114,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                     <div className="col-md-4 d-flex justify-content-center">
                         <div className="card">
                             <img
-                                src="../osslan.gif"
+                                src="../frente Ossian (1).png"
                                 className="card-img-top"
                                 alt="Ossian"
                             />
