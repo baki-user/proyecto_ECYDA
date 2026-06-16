@@ -19,11 +19,17 @@
     width: 99%;
     height: 200px;
     background-size: contain;
-   
 
-
-
-
-    
-
+}
+.ticker-bar { overflow: hidden; }
+.ticker-track {
+  display: flex;
+  white-space: nowrap;
+  animation: ticker 18s linear infinite;
+}
+.ticker-track:hover { animation-play-state: paused; }
+.ticker-item { padding: 6px 50px; }
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }

@@ -1,6 +1,33 @@
-.bg-img{
+.bg-img {
     background-image: url(../public/fabrica1.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     background-position: center;
+}
+
+.logo-hover {
+    cursor: pointer;
+}
+
+.logo-hover:hover {
+    transform: scale(1.15);
+}
+
+.fade-in-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-in-scroll.logo-hover {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-scroll.visible.logo-hover:hover {
+    transform: scale(1.15);
 }

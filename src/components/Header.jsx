@@ -4,9 +4,9 @@ import "./Header.css"
 export const Header = ({ headerColor, header2Color }) => {
     return (
         <>
-            <div className="Header ">
-                <nav className={`navbar navbar-expand-lg  ${headerColor}`} data-bs-theme="dark">
-                    <div className="container ">
+            <div className="Header">
+                <nav className={`navbar navbar-expand-lg ${headerColor}`} data-bs-theme="dark">
+                    <div className="container">
                         <Link className="navbar-brand" to="/">
                             <img src="./logo-blanco.png" alt="Bootstrap" width="70" />
                         </Link>
@@ -15,8 +15,8 @@ export const Header = ({ headerColor, header2Color }) => {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ms-auto">
-                                <li className="nav-item navbar-light ">
-                                    <Link className="nav-link" to="/aboutus" >Acerca de</Link>
+                                <li className="nav-item navbar-light">
+                                    <Link className="nav-link" to="/aboutus">Acerca de</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/comic">Comic interactivo</Link>
@@ -31,8 +31,16 @@ export const Header = ({ headerColor, header2Color }) => {
                         </div>
                     </div>
                 </nav>
-                <div className={`text-white text-center ${header2Color}`}>Lo normal fue lo primero en morir</div>
-            </div>
+                <div className={`ticker-bar text-white ${header2Color}`}>
+                    <div className="ticker-track">
+                        {[...Array(8)].map((_, i) => (
+                            <span key={i} className="ticker-item">
+                                Lo normal fue lo primero en morir
+                            </span>
+                        ))}
+                    </div>
+                </div>
+            </div>  {/* ← este faltaba */}
         </>
     )
 }
