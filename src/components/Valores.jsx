@@ -58,7 +58,7 @@ export const Valores = ({ Fondo, Fondo2, Fondo3, Fondo4 }) => {
                         className={`card rounded-0 ${fondos[i]} fade-in-scroll`}
                         style={{ transitionDelay: `${i * 0.15}s` }}
                     >
-                        <div className="card-body">
+                        <div className="card-body"style={{ color: "#584014" }}>
                             <div>{v.titulo}</div>
                             <div
                                 className={`bi bi-caret-down-fill valor-flecha ${abierto === i ? "rotada" : ""}`}
@@ -67,7 +67,7 @@ export const Valores = ({ Fondo, Fondo2, Fondo3, Fondo4 }) => {
                             ></div>
                         </div>
                         <div className={`valor-desplegable ${abierto === i ? "abierto" : ""}`}>
-                            <p className="p-3 mb-0">
+                            <p className="p-3 mb-0"style={{ color: "#4c3c18" }}>
                                 {v.emoji} {v.texto}
                             </p>
                         </div>
