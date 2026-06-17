@@ -33,7 +33,7 @@ export const Productos = () => {
         <div className="row">
           <div className="col p-2">
             <div className="card bg-transparent border-0 m-auto" style={{ width: "30rem" }}>
-              <img className="img4 m-auto" width="420" src="./escenariovalentia.png" alt="" />
+              <img className="img4 m-auto" width="420" src="./escenariovalentina.png" alt="" />
               <div className="card-body">
                 <p className="card-text d-flex justify-content-center" style={{ color: "#616161"  }}>ESCENARIOS 3D</p>
               </div>
