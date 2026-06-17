@@ -33,3 +33,9 @@
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+.Header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
