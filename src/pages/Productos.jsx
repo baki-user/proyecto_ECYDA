@@ -59,7 +59,7 @@ export const Productos = () => {
             <div className="card bg-transparent border-0 m-auto" style={{ width: "30rem" }}>
               <img className="img4 m-auto logo-hover fade-in-scroll" width="420" src="./escenariovalentina.png" alt="" style={{ transitionDelay: "0.2s" }} />
               <div className="card-body">
-                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>ESCENARIOS 3D</p>
+                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>Escenarios 3D</p>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ export const Productos = () => {
             <div className="card bg-transparent border-0 m-auto" style={{ width: "30rem" }}>
               <img className="img4 m-auto logo-hover fade-in-scroll" width="440" src="./Recurso4.png" alt="" style={{ transitionDelay: "0.4s" }} />
               <div className="card-body">
-                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>PERSONAJES 3D</p>
+                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>Personajes 3D</p>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ export const Productos = () => {
         <section className="p-4">
           <Link to="/tienda" style={{ textDecoration: "none" }}>
             <div className="categoria container fw-bold w-25 rounded-3 logo-hover fade-in-scroll" style={{ transitionDelay: "0.3s", cursor: "pointer" }}>
-              <p className="d-flex justify-content-center h-100 align-items-center text-white fs-5">TIENDA</p>
+              <p className="d-flex justify-content-center h-100 align-items-center text-white fs-5">Tienda</p>
             </div>
           </Link>
         </section>

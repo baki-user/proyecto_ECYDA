@@ -32,7 +32,7 @@ export const Somos = () => {
       />
       <div className="banner">
         <div className="ban position-relative p-4 h-100 d-flex justify-content-center">
-          <p className="fw-bold fs-3 fade-in-scroll" style={{ color: "#2c592c" }}>CONOCENOS</p>
+          <p className="fw-bold fs-3 fade-in-scroll" style={{ color: "#2c592c" }}>Conocenos</p>
         </div>
       </div>
       <div className="container">
@@ -48,7 +48,7 @@ export const Somos = () => {
             <div className="card m-auto border-white" style={{ width: "25rem" }}>
               <img className="img4 ml-auto p-2 logo-hover fade-in-scroll" width="320" height="360" src="./Valentina.jpeg" alt="" style={{ transitionDelay: "0.2s" }} />
               <div className="card-body">
-                <p className="card-text d-flex text-start" style={{ color: "#616161" }}>VALENTINA ATEHORTUA ATEHORTUA</p>
+                <p className="card-text d-flex text-start" style={{ color: "#616161" }}>Valentina Atehortua Atehortua</p>
               </div>
               <div className="card-body">
                 <p className="card-text d-flex justify-content-center text-start">Soy Valentina, estoy encargada de los guiones, soy una persona muy sociable y risueña.</p>
@@ -70,7 +70,7 @@ export const Somos = () => {
             <div className="card m-auto border-white" style={{ width: "23rem" }}>
               <img className="img4 m-auto p-2 logo-hover fade-in-scroll" width="320" height="360" src="./Nicol.jpeg" alt="" style={{ transitionDelay: "0.4s" }} />
               <div className="card-body">
-                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>NICOL MADERA CARDONA</p>
+                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>Nicol Madera Cardona</p>
               </div>
               <div className="card-body">
                 <p className="card-text d-flex justify-content-center text-center" style={{ color: "#616161" }}>Soy Nicol encargada de programar, me gusta hablar y conocer nuevos lugares.</p>
@@ -92,7 +92,7 @@ export const Somos = () => {
             <div className="card m-auto border-white" style={{ width: "23rem" }}>
               <img className="img4 ms-auto p-2 logo-hover fade-in-scroll" width="335" src="./Keren.jpeg" alt="" style={{ transitionDelay: "0.6s" }} />
               <div className="card-body">
-                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>KEREN CALDERA BENITEZ</p>
+                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>Keren Caldera Benitez</p>
               </div>
               <div className="card-body">
                 <p className="card-text d-flex justify-content-center text-center" style={{ color: "#616161" }}>Soy keren, me hago cargo de diseñar, me gusta mucho hablar y soy muy sociable.</p>

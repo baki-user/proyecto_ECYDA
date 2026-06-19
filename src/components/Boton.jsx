@@ -49,7 +49,7 @@ export const Boton = ({btncolor, fondob}) => {
                         transitionDelay: "0.4s"
                     }}
                 >
-                    IR AL COMIC
+                    Ir al comic
                 </button>
             </div>
         </div>

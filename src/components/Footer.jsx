@@ -29,9 +29,6 @@ export const Footer = ({ headerColor }) => {
                         </div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center p-2">
-                    <img width="25%" src="./social.gif" alt="" />
-                </div>
             </div>
         </div>
     )

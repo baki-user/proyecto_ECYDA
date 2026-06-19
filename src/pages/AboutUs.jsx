@@ -6,7 +6,6 @@ import { Barra } from "../components/Barra.jsx"
 import { Tips } from "../components/Tips.jsx"
 import { Datos } from "../components/Datos.jsx"
 import { Boton } from "../components/Boton.jsx"
-import { Header2 } from "../components/Header2.jsx"
 import { Meaning } from "../components/Meaning.jsx"
 import { Valores } from "../components/Valores.jsx"
 import { Objetivos } from "../components/Objetivos.jsx"
@@ -18,6 +17,7 @@ export const AboutUs = () => {
         <>
             <Header
                 headerColor="bg-green"
+                header2Color="bg-lightColor"
             />
             <Meaning
                 Filasbg="bgIma"

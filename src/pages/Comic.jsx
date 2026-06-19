@@ -37,7 +37,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                     <section className="hero container" />
 
                     <div className="hero-top text-center m-auto p-4 mt-4" style={{ maxWidth: "660px" }}>
-                        <h1 style={{ fontSize: "2.8rem", color: "#005b15" }}>EL CALENTAMIENTO GLOBAL Y LA INDUSTRALIZACION</h1>
+                        <h1 style={{ fontSize: "2.8rem", color: "#005b15" }}>El calentamiento global y la industrialización</h1>
                         <p className="subtitle mt-4" style={{ fontSize: "1.3rem", color: "#4a4a4a" }}>
                             Un estudiante conocido como Ossian debe enfrentarse contra un nuevo riesgo para la sociedad, Asher,
                             un hombre planta que ha acabado con toda la humanidad sin sentir nada de remordimiento o miedo,
@@ -49,35 +49,48 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                 <section className="container mt-5 pt-5" style={{ marginTop: "120px" }}>
                     <div className="row">
                         <div className="card-body text-center mt-4">
-                            <p style={{ fontSize: "1.9rem", fontWeight: "bold", color: "#005b15" }}>REFERENTES VISUALES</p>
+                            <p style={{ fontSize: "1.9rem", fontWeight: "bold", color: "#005b15" }}>Referentes visuales</p>
                         </div>
                         <div className="card-body text-center">
                             <p style={{ fontSize: "1.2rem", color: "#4a4a4a" }}>Para desarrollar nuestro proyecto de un comic digital interactivo, tomamos algunos referentes visuales</p>
                         </div>
+
                         <div className="col mt-4">
-                            <div className="card m-auto border-white" style={{ width: "23rem", height: "30rem" }}>
-                                <img className="img4 m-auto logo-hover fade-in-scroll" width="250" height="250" style={{ objectFit: "contain" }} src="../portada1.gif" alt="" />
-                                <div className="card-body">
-                                    <p className="card-text d-flex justify-content-center" style={{ fontSize: "1.1rem", color: "#4a4a4a" }}>Hijos de los hombres (2006)</p>
-                                </div>
+                            <div className="card m-auto border-white text-center" style={{ width: "23rem", height: "30rem" }}>
+                                <a href="https://es.wikipedia.org/wiki/Children_of_Men" target="_blank" rel="noopener noreferrer"
+                                    style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", height: "100%" }}>
+                                    <img className="img4 logo-hover fade-in-scroll" width="250" height="250"
+                                        style={{ objectFit: "contain" }} src="../portada1.gif" alt="Hijos de los hombres" />
+                                    <div className="card-body text-center">
+                                        <p className="card-text" style={{ fontSize: "1.1rem", color: "#4a4a4a" }}>Hijos de los hombres (2006)</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <div className="col mt-4">
-                            <div className="card m-auto border-white" style={{ width: "23rem", height: "30rem" }}>
-                                <img className="img4 m-auto logo-hover fade-in-scroll" width="250" height="250" style={{ objectFit: "contain", transitionDelay: "0.2s" }} src="../portada2.gif" alt="" />
-                                <div className="card-body">
-                                    <p className="card-text d-flex justify-content-center" style={{ fontSize: "1.1rem", color: "#4a4a4a" }}>Love (2011)</p>
-                                </div>
+                            <div className="card m-auto border-white text-center" style={{ width: "23rem", height: "30rem" }}>
+                                <a href="https://es.wikipedia.org/wiki/Love_(película_de_2011)" target="_blank" rel="noopener noreferrer"
+                                    style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", height: "100%" }}>
+                                    <img className="img4 logo-hover fade-in-scroll" width="250" height="250"
+                                        style={{ objectFit: "contain", transitionDelay: "0.2s" }} src="../portada2.gif" alt="Love" />
+                                    <div className="card-body text-center">
+                                        <p className="card-text" style={{ fontSize: "1.1rem", color: "#4a4a4a" }}>Love (2011)</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
                         <div className="col mt-4">
-                            <div className="card m-auto border-white" style={{ width: "23rem", height: "30rem" }}>
-                                <img className="img4 m-auto logo-hover fade-in-scroll" width="250" height="250" style={{ objectFit: "contain", transitionDelay: "0.4s" }} src="../portada3.gif" alt="" />
-                                <div className="card-body">
-                                    <p className="card-text d-flex justify-content-center" style={{ fontSize: "1.1rem", color: "#4a4a4a" }}>Little Shop of Horrors (1986)</p>
-                                </div>
+                            <div className="card m-auto border-white text-center" style={{ width: "23rem", height: "30rem" }}>
+                                <a href="https://en.wikipedia.org/wiki/Little_Shop_of_Horrors_(1986_film)" target="_blank" rel="noopener noreferrer"
+                                    style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", height: "100%" }}>
+                                    <img className="img4 logo-hover fade-in-scroll" width="250" height="250"
+                                        style={{ objectFit: "contain", transitionDelay: "0.4s" }} src="../portada3.gif" alt="Little Shop of Horrors" />
+                                    <div className="card-body text-center">
+                                        <p className="card-text" style={{ fontSize: "1.1rem", color: "#4a4a4a" }}>Little Shop of Horrors (1986)</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -86,23 +99,35 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
 
             <div className="container mt-4">
                 <div className="card-body text-center">
-                    <p style={{ fontSize: "1.6rem", fontWeight: "bold", color: "#005b15" }}>PERSONAJES</p>
+                    <p style={{ fontSize: "1.6rem", fontWeight: "bold", color: "#005b15" }}>Personajes principales</p>
                 </div>
-                <div className="row justify-content-center gap-4">
-                    <div className="col-md-4 d-flex justify-content-center">
-                        <div className="card">
-                            <img src="../ASHER.png" className="card-img-top fade-in-scroll" alt="Asher" />
-                            <div className="card-body text-center">
-                                <p style={{ fontSize: "1.2rem", color: "#4a4a4a" }}>Asher</p>
+                <div className="row justify-content-center g-4">
+                    <div className="col-auto">
+                        <div className="card" style={{ width: "200px", height: "420px" }}>
+                            <img src="../ASHER.png" className="card-img-top fade-in-scroll" alt="Asher"
+                                style={{ height: "360px", objectFit: "contain" }} />
+                            <div className="card-body text-center p-2">
+                                <p style={{ fontSize: "1.2rem", color: "#4a4a4a", margin: 0 }}>Asher</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-md-4 d-flex justify-content-center">
-                        <div className="card">
-                            <img src="../frente Ossian (1).png" className="card-img-top fade-in-scroll" alt="Ossian" style={{ transitionDelay: "0.2s" }} />
-                            <div className="card-body text-center">
-                                <p style={{ fontSize: "1.2rem", color: "#4a4a4a" }}>Ossian</p>
+                    <div className="col-auto">
+                        <div className="card" style={{ width: "200px", height: "420px" }}>
+                            <img src="../Sora.png" className="card-img-top fade-in-scroll" alt="Sora"
+                                style={{ height: "360px", objectFit: "contain", transitionDelay: "0.2s" }} />
+                            <div className="card-body text-center p-2">
+                                <p style={{ fontSize: "1.2rem", color: "#4a4a4a", margin: 0 }}>Sora</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-auto">
+                        <div className="card" style={{ width: "200px", height: "420px" }}>
+                            <img src="../frente Ossian (1).png" className="card-img-top fade-in-scroll" alt="Ossian"
+                                style={{ height: "360px", objectFit: "contain", transitionDelay: "0.4s" }} />
+                            <div className="card-body text-center p-2">
+                                <p style={{ fontSize: "1.2rem", color: "#4a4a4a", margin: 0 }}>Ossian</p>
                             </div>
                         </div>
                     </div>
@@ -127,7 +152,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
 
             <div className="my-5 p-4 rounded shadow-sm" style={{ backgroundColor: "#e8d3b7", width: "100%" }}>
                 <h5 className="text-center mb-2 fw-bold" style={{ fontSize: "1.5rem", color: "#588d65" }}>
-                    INSTRUCCIONES PARA EL CÓMIC
+                    Instrucciones para el comic
                 </h5>
 
                 <div className="row text-center">

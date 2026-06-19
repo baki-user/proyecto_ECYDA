@@ -3,22 +3,22 @@ import "../stylesheet/Valores.css"
 
 const valores = [
     {
-        titulo: "SOSTENIBILIDAD",
+        titulo: "Sostenibilidad",
         fondo: "Fondo",
         texto: "Compromiso con la protección y conservación del medio ambiente mediante la promoción de prácticas responsables que permitan satisfacer las necesidades actuales sin comprometer los recursos y oportunidades de las futuras generaciones."
     },
     {
-        titulo: "TRANSPARENCIA",
+        titulo: "Transparencia",
         fondo: "Fondo2",
         texto: "Principio que promueve la comunicación clara, honesta y basada en información verificable sobre las causas, consecuencias y posibles soluciones al calentamiento global, facilitando la comprensión y la toma de decisiones informadas por parte de la comunidad."
     },
     {
-        titulo: "INNOVACIÓN VERDE",
+        titulo: "Innovación verde",
         fondo: "Fondo3",
         texto: "Capacidad de desarrollar y aplicar ideas, herramientas y estrategias creativas que contribuyan a la reducción del impacto ambiental, fomentando alternativas sostenibles y nuevas formas de sensibilizar a la población sobre los desafíos climáticos."
     },
     {
-        titulo: "RESPONSABILIDAD",
+        titulo: "Responsabilidad",
         fondo: "Fondo4",
         texto: "Compromiso individual y colectivo de reconocer el impacto de nuestras acciones sobre el medio ambiente y actuar de manera consciente para reducir los efectos del cambio climático, promoviendo conductas que favorezcan el bienestar social y ecológico."
     }
@@ -50,7 +50,7 @@ export const Valores = ({ Fondo, Fondo2, Fondo3, Fondo4 }) => {
 
     return (
         <div>
-            <h2 className="text-center mt-4 fade-in-scroll" style={{ color: "#7e7e7e" }}>VALORES DE MARCA</h2>
+            <h2 className="text-center mt-4 fade-in-scroll" style={{ color: "#7e7e7e" }}>Valores de marca</h2>
             <div className="w-100 text-center d-flex flex-column gap-2 mt-2">
                 {valores.map((v, i) => (
                     <div
