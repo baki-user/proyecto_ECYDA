@@ -44,7 +44,7 @@ export const Somos = () => {
       <section className="tarjetass container p-5">
         <div className="row">
 
-          <div className="col fade-in-scroll" style={{ transitionDelay: "0.1s" }}>
+          <div className="col fade-in-scroll mt-4" style={{ transitionDelay: "0.1s" }}>
             <div className="card m-auto border-white" style={{ width: "25rem" }}>
               <img className="img4 ml-auto p-2 logo-hover fade-in-scroll mobile-center" width="320" height="360" src="./Valentina.jpeg" alt="" style={{ transitionDelay: "0.2s" }} />
               <div className="card-body">
