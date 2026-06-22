@@ -31,11 +31,8 @@ export const Productos = () => {
         headerColor="bg-green"
         header2Color="bg-lightColor"
       />
-      <div className="d-flex justify-content-end">
-        <img className="img2 p-2 fade-in-scroll" width="60" src="./image.png" alt="" />
-      </div>
       <div className="banner position-relative">
-        <div className="ban position-relative p-4 h-100 d-flex justify-content-center">
+        <div className="ban position-relative p-4 h-100 d-flex justify-content-center mt-4">
           <img className="img1 position-absolute p-2 fade-in-scroll" width="150" src="./circulo.gif" alt="" style={{ transitionDelay: "0.1s" }} />
           <img className="ban h-100 fade-in-scroll" width="60%" src="./banner.gif" alt="" style={{ transitionDelay: "0.2s" }} />
           <img className="img2 position-absolute p-1 fade-in-scroll" width="140" src="./circulo.gif" alt="" style={{ transitionDelay: "0.3s" }} />
@@ -44,13 +41,13 @@ export const Productos = () => {
       <div className="div p-5 h-100" width="100">
         <div className="cuadro p-5 d-flex justify-content-center h-50" width="100">
           <div className="container">
-            <p className="tex fw-bold position-relative m-5 p-5 fade-in-scroll" style={{ color: "#616161", transitionDelay: "0.2s" }}>
+            <p className="tex fw-bold position-relative fade-in-scroll" style={{ color: "#616161", transitionDelay: "0.2s" }}>
               Bienvenido a la tienda de ECYDA, un espacio donde la creatividad y la innovación se unen para dar vida a mundos digitales únicos. Nos especializamos en el diseño y la venta de escenarios y personajes en 3D, creados con atención al detalle y pensados para enriquecer proyectos de videojuegos, animación, realidad virtual, contenido digital y narrativas interactivas. En ECYDA encontrarás recursos de alta calidad que te permitirán construir experiencias visuales impactantes, desarrollar historias memorables y materializar tus ideas en entornos tridimensionales.
             </p>
           </div>
         </div>
       </div>
-      <section className="tarjetas container flex-column d-flex justify-content-center">
+      <section className=" mt-4tarjetas container flex-column d-flex justify-content-center">
         <p className="algunos d-flex justify-content-center p-4 fw-bold fade-in-scroll" style={{ color: "#616161" }}>
           Algunos de nuestros productos
         </p>

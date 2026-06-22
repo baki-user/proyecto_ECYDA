@@ -11,3 +11,26 @@
     opacity: 1;
     transform: translateY(0);
 }
+/* Desktop (estado original) */
+.objetivo-1 .objetivo-titulo,
+.objetivo-1 .objetivo-texto {
+    text-align: left;
+}
+
+.objetivo-2 .objetivo-titulo,
+.objetivo-2 .objetivo-texto {
+    text-align: center;
+}
+
+.objetivo-3 .objetivo-titulo,
+.objetivo-3 .objetivo-texto {
+    text-align: right;
+}
+
+/* Mobile: todos centrados */
+@media (max-width: 768px) {
+    .objetivo-titulo,
+    .objetivo-texto {
+        text-align: center !important;
+    }
+}

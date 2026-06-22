@@ -6,3 +6,24 @@
     right: 40%;
     top: 15%;
 }
+
+@media (max-width: 768px) {
+    .mobile-center {
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .mobile-center-text.card-text {
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .keren-desc {
+        text-align: left !important;
+        justify-content: flex-end !important;
+    }
+}
