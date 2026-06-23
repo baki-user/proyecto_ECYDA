@@ -31,7 +31,7 @@ export const Boton = ({btncolor, fondob}) => {
                 <h1 className="text-center mt-4 fade-in-scroll" style={{ color: "#7d7d7d" }}>
                     Nuestro proyecto
                 </h1>
-                <p className="text-center mt-4 fade-in-scroll" style={{ color: "#7d7d7d", transitionDelay: "0.2s" }}>
+                <p className="text-start mt-4 fade-in-scroll" style={{ color: "#7d7d7d", transitionDelay: "0.2s" }}>
                     Tras una extensa investigacion encontramos que no se ha explorado del tema del calentamiento global y la industrializacion desde la perspectiva de una comic interactivo, debido a esto desde ECYDA desarollamos nuestro proyecto estrella, un comic digital interactivo.
                     Creemos que por medio de este llegaremos mas profundamente a las personas y tendremos una buena influencia en ellas, te invitamos a ver nuestro comic.
                 </p>

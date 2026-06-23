@@ -1,4 +1,5 @@
 import "../stylesheet/Datos.css"
+import "../stylesheet/Objetivos.css"
 import { useEffect } from "react"
 
 export const Datos = ({ focolor, focolor2 }) => {
@@ -35,7 +36,7 @@ export const Datos = ({ focolor, focolor2 }) => {
                                 <img src="./calor.png" alt="Bootstrap" width="100%" />
                             </div>
                             <div className={`card-body ${focolor2}`}>
-                                <p className="card-text text-center" style={{ color: "#ddffe2" }}>
+                                <p className="card-text text-start" style={{ color: "#ddffe2" }}>
                                     Los últimos 9 años han sido los más calurosos jamás registrados: Desde 2015, cada año ha estado entre los más calurosos desde que comenzaron los registros en 1880.
                                 </p>
                             </div>
@@ -61,7 +62,7 @@ export const Datos = ({ focolor, focolor2 }) => {
                                 <img src="./huracan.png" alt="Bootstrap" width="100%" />
                             </div>
                             <div className={`card-body ${focolor2}`}>
-                                <p className="card-text text-center" style={{ color: "#ddffe2" }}>
+                                <p className="card-text text-end" style={{ color: "#ddffe2" }}>
                                     Los desastres naturales son más intensos y frecuentes: El calentamiento global está haciendo que tormentas, incendios forestales, sequías y huracanes sean más destructivos.
                                 </p>
                             </div>
