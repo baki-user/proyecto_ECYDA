@@ -14,3 +14,28 @@
     opacity: 1;
     transform: translateY(0);
 }
+.img-overlay-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-overlay-wrapper img {
+    display: block;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.img-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+}
+
+.img-overlay-wrapper:hover .img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-overlay-wrapper:hover img {
+    transform: scale(1.05); /* opcional: zoom suave */
+}

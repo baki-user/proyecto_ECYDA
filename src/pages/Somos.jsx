@@ -46,7 +46,7 @@ export const Somos = () => {
 
           <div className="col fade-in-scroll mt-4" style={{ transitionDelay: "0.1s" }}>
             <div className="card m-auto border-white" style={{ width: "25rem" }}>
-              <img className="img4 ml-auto p-2 logo-hover fade-in-scroll mobile-center" width="320" height="360" src="./Valentina.jpeg" alt="" style={{ transitionDelay: "0.2s" }} />
+              <img className="img4 ml-auto p-2 logo-hover fade-in-scroll mobile-center" width="320" height="360" src="./Valentina.png" alt="" style={{ transitionDelay: "0.2s" }} />
               <div className="card-body">
                 <p className="card-text d-flex text-start mobile-center-text" style={{ color: "#616161" }}>Valentina Atehortua Atehortua</p>
               </div>
@@ -68,7 +68,7 @@ export const Somos = () => {
 
           <div className="col fade-in-scroll mt-4" style={{ transitionDelay: "0.3s" }}>
             <div className="card m-auto border-white" style={{ width: "23rem" }}>
-              <img className="img4 m-auto p-2 logo-hover fade-in-scroll mobile-center" width="320" height="360" src="./Nicol.jpeg" alt="" style={{ transitionDelay: "0.4s" }} />
+              <img className="img4 m-auto p-2 logo-hover fade-in-scroll mobile-center" width="320" height="360" src="./nicol.jpg" alt="" style={{ transitionDelay: "0.4s" }} />
               <div className="card-body">
                 <p className="card-text d-flex justify-content-center mobile-center-text" style={{ color: "#616161" }}>Nicol Madera Cardona</p>
               </div>
@@ -90,7 +90,7 @@ export const Somos = () => {
 
           <div className="col fade-in-scroll mt-4" style={{ transitionDelay: "0.5s" }}>
             <div className="card m-auto border-white" style={{ width: "23rem" }}>
-              <img className="img4 ms-auto p-2 logo-hover fade-in-scroll mobile-center" width="335" src="./Keren.jpeg" alt="" style={{ transitionDelay: "0.6s" }} />
+              <img className="img4 ms-auto p-2 logo-hover fade-in-scroll mobile-center" width="335" src="./Keren.png" alt="" style={{ transitionDelay: "0.6s" }} />
               <div className="card-body">
                 <p className="card-text d-flex justify-content-center mobile-center-text" style={{ color: "#616161" }}>Keren Caldera Benitez</p>
               </div>

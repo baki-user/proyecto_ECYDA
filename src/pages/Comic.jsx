@@ -98,50 +98,60 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
             </div>
 
             <div className="container mt-4">
-    <div className="card-body text-center">
-        <p style={{ fontSize: "1.6rem", fontWeight: "bold", color: "#005b15" }}>Personajes principales</p>
-    </div>
-    <div className="row justify-content-center g-4">
-        <div className="col-auto">
-            <div className="card" style={{ width: "200px", height: "420px" }}>
-                <a href="https://drive.google.com/file/d/1IWTCtQX-3VX8khEh3JdxT8XpQ8ZgUevu/view?usp=sharing" target="_blank" rel="noopener noreferrer"
-                   style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", height: "100%" }}>
-                    <img src="../ASHER.png" className="card-img-top fade-in-scroll" alt="Asher"
-                         style={{ height: "360px", objectFit: "contain", cursor: "pointer" }} />
-                    <div className="card-body text-center p-2">
-                        <p style={{ fontSize: "1.2rem", color: "#4a4a4a", margin: 0 }}>Asher</p>
-                    </div>
-                </a>
-            </div>
-        </div>
+                <div className="card-body text-center">
+                    <p style={{ fontSize: "1.6rem", fontWeight: "bold", color: "#005b15" }}>Personajes principales</p>
+                </div>
+                <div className="row justify-content-center g-4">
 
-        <div className="col-auto">
-            <div className="card" style={{ width: "200px", height: "420px" }}>
-                <a href="https://drive.google.com/file/d/1NInPswx-vNAervyraIHm3w8SncIDBjjb/view?usp=sharing" target="_blank" rel="noopener noreferrer"
-                   style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", height: "100%" }}>
-                    <img src="../Sora.png" className="card-img-top fade-in-scroll" alt="Sora"
-                         style={{ height: "360px", objectFit: "contain", cursor: "pointer", transitionDelay: "0.2s" }} />
-                    <div className="card-body text-center p-2">
-                        <p style={{ fontSize: "1.2rem", color: "#4a4a4a", margin: 0 }}>Sora</p>
+                    <div className="col-auto">
+                        <div className="card" style={{ width: "200px", height: "420px" }}>
+                            <a href="https://drive.google.com/file/d/1IWTCtQX-3VX8khEh3JdxT8XpQ8ZgUevu/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+                                style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", height: "100%" }}>
+                                <div className="img-overlay-wrapper" style={{ height: "360px" }}>
+                                    <img src="../ASHER.png" className="card-img-top fade-in-scroll" alt="Asher"
+                                        style={{ height: "360px", objectFit: "contain", cursor: "pointer" }} />
+                                    <div className="img-overlay"></div>
+                                </div>
+                                <div className="card-body text-center p-2">
+                                    <p style={{ fontSize: "1.2rem", color: "#4a4a4a", margin: 0 }}>Asher</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </a>
-            </div>
-        </div>
 
-        <div className="col-auto">
-            <div className="card" style={{ width: "200px", height: "420px" }}>
-                <a href="https://drive.google.com/file/d/14BncvOMwQNd1sd7WJ8VKyboANT69W-jw/view?usp=sharing" target="_blank" rel="noopener noreferrer"
-                   style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", height: "100%" }}>
-                    <img src="../frente Ossian (1).png" className="card-img-top fade-in-scroll" alt="Ossian"
-                         style={{ height: "360px", objectFit: "contain", cursor: "pointer", transitionDelay: "0.4s" }} />
-                    <div className="card-body text-center p-2">
-                        <p style={{ fontSize: "1.2rem", color: "#4a4a4a", margin: 0 }}>Ossian</p>
+                    <div className="col-auto">
+                        <div className="card" style={{ width: "200px", height: "420px" }}>
+                            <a href="https://drive.google.com/file/d/1NInPswx-vNAervyraIHm3w8SncIDBjjb/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+                                style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", height: "100%" }}>
+                                <div className="img-overlay-wrapper" style={{ height: "360px" }}>
+                                    <img src="../Sora.png" className="card-img-top fade-in-scroll" alt="Sora"
+                                        style={{ height: "360px", objectFit: "contain", cursor: "pointer", transitionDelay: "0.2s" }} />
+                                    <div className="img-overlay"></div>
+                                </div>
+                                <div className="card-body text-center p-2">
+                                    <p style={{ fontSize: "1.2rem", color: "#4a4a4a", margin: 0 }}>Sora</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </a>
+
+                    <div className="col-auto">
+                        <div className="card" style={{ width: "200px", height: "420px" }}>
+                            <a href="https://drive.google.com/file/d/14BncvOMwQNd1sd7WJ8VKyboANT69W-jw/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+                                style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", height: "100%" }}>
+                                <div className="img-overlay-wrapper" style={{ height: "360px" }}>
+                                    <img src="../frente Ossian (1).png" className="card-img-top fade-in-scroll" alt="Ossian"
+                                        style={{ height: "360px", objectFit: "contain", cursor: "pointer", transitionDelay: "0.4s" }} />
+                                    <div className="img-overlay"></div>
+                                </div>
+                                <div className="card-body text-center p-2">
+                                    <p style={{ fontSize: "1.2rem", color: "#4a4a4a", margin: 0 }}>Ossian</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
 
             <div className="page d-flex justify-content-between">
                 <div className="side-bar" style={{ backgroundColor: "#005b15" }}></div>

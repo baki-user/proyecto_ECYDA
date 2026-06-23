@@ -33,7 +33,10 @@ export const Datos = ({ focolor, focolor2 }) => {
                     <div className="col-8 col-lg-4 fade-in-scroll" style={{ minWidth: "200px", transitionDelay: "0.1s" }}>
                         <div className={`card ${focolor}`}>
                             <div className="container d-flex justify-content-center mt-4">
-                                <img src="./calor.png" alt="Bootstrap" width="100%" />
+                                <div className="img-overlay-wrapper">
+                                    <img src="./calor.png" alt="Bootstrap" width="100%" />
+                                    <div className="img-overlay"></div>
+                                </div>
                             </div>
                             <div className={`card-body ${focolor2}`}>
                                 <p className="card-text text-start" style={{ color: "#ddffe2" }}>
@@ -46,7 +49,10 @@ export const Datos = ({ focolor, focolor2 }) => {
                     <div className="col-8 col-lg-4 fade-in-scroll" style={{ minWidth: "200px", transitionDelay: "0.3s" }}>
                         <div className={`card ${focolor}`}>
                             <div className="container d-flex justify-content-center mt-4">
-                                <img src="./basura.png" alt="Bootstrap" width="100%" />
+                                <div className="img-overlay-wrapper">
+                                    <img src="./basura.png" alt="Bootstrap" width="100%" />
+                                    <div className="img-overlay"></div>
+                                </div>
                             </div>
                             <div className={`card-body ${focolor2}`}>
                                 <p className="card-text text-center" style={{ color: "#ddffe2" }}>
@@ -59,7 +65,10 @@ export const Datos = ({ focolor, focolor2 }) => {
                     <div className="col-8 col-lg-4 fade-in-scroll" style={{ minWidth: "200px", transitionDelay: "0.5s" }}>
                         <div className={`card ${focolor}`}>
                             <div className="container d-flex justify-content-center mt-4">
-                                <img src="./huracan.png" alt="Bootstrap" width="100%" />
+                                <div className="img-overlay-wrapper">
+                                    <img src="./huracan.png" alt="Bootstrap" width="100%" />
+                                    <div className="img-overlay"></div>
+                                </div>
                             </div>
                             <div className={`card-body ${focolor2}`}>
                                 <p className="card-text text-end" style={{ color: "#ddffe2" }}>
