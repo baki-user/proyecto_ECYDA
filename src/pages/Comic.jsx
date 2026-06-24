@@ -3,6 +3,7 @@ import "../stylesheet/InfoCard.css"
 import { Header } from "../components/Header"
 import { Footer } from "../components/Footer"
 import { useEffect } from "react"
+import video from "../Teaser-ECYDA-version-final-final.webm"
 
 export const Comic = ({ headerColor, header2Color, edificios }) => {
 
@@ -163,7 +164,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                         loop
                         muted
                         style={{ marginTop: "1rem" }}>
-                        <source src="./Teaser ECYDA version final final.mp4" type="video/mp4" />
+                        <source src={video} type="video/webm" />
                     </video>
                 </div>
                 <div className="side-bar right" style={{ backgroundColor: "#005b15" }}></div>
