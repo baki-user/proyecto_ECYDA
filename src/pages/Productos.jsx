@@ -52,19 +52,22 @@ export const Productos = () => {
           Algunos de nuestros productos
         </p>
         <div className="row">
-          <div className="col p-2 fade-in-scroll" style={{ transitionDelay: "0.1s" }}>
-            <div className="card bg-transparent border-0 m-auto" style={{ width: "30rem" }}>
-              <img className="img4 m-auto logo-hover fade-in-scroll" width="420" src="./escenariovalentina.png" alt="" style={{ transitionDelay: "0.2s" }} />
-              <div className="card-body">
-                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>Escenarios 3D</p>
+
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-6 p-2 d-flex justify-content-center fade-in-scroll" style={{ transitionDelay: "0.1s" }}>
+              <div className="card bg-transparent border-0 text-center">
+                <img className="img4 m-auto logo-hover fade-in-scroll" style={{ maxWidth: "100%", width: "420px", transitionDelay: "0.2s" }} src="./escenariovalentina.png" alt="" />
+                <div className="card-body">
+                  <p className="card-text" style={{ color: "#616161" }}>Escenarios 3D</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col p-2 fade-in-scroll" style={{ transitionDelay: "0.3s" }}>
-            <div className="card bg-transparent border-0 m-auto" style={{ width: "30rem" }}>
-              <img className="img4 m-auto logo-hover fade-in-scroll" width="440" src="./Recurso4.png" alt="" style={{ transitionDelay: "0.4s" }} />
-              <div className="card-body">
-                <p className="card-text d-flex justify-content-center" style={{ color: "#616161" }}>Personajes 3D</p>
+            <div className="col-12 col-md-6 p-2 d-flex justify-content-center fade-in-scroll" style={{ transitionDelay: "0.3s" }}>
+              <div className="card bg-transparent border-0 text-center">
+                <img className="img4 m-auto logo-hover fade-in-scroll" style={{ maxWidth: "100%", width: "440px", transitionDelay: "0.4s" }} src="./Recurso4.png" alt="" />
+                <div className="card-body">
+                  <p className="card-text" style={{ color: "#616161" }}>Personajes 3D</p>
+                </div>
               </div>
             </div>
           </div>

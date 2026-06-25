@@ -39,3 +39,25 @@
     z-index: 1000;
     width: 100%;
 }
+/* Fuerza el navbar a no desbordar */
+.navbar {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* El container de Bootstrap puede tener padding problemático */
+.navbar .container {
+    padding-left: 12px;
+    padding-right: 12px;
+    max-width: 100%;
+}
+
+/* Asegura que el header no cree scroll horizontal */
+.Header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    overflow: hidden;  /* ← agrega esto */
+}
