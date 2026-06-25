@@ -1,8 +1,9 @@
-.back{
-    background-image: url(../public/barras.png);
+.back {
+    background-image: url(/barras.png);
     background-position: center;
     background-size: cover;
 }
+
 .fade-in-scroll {
     opacity: 0;
     transform: translateY(30px);

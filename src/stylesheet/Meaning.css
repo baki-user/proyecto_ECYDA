@@ -1,5 +1,5 @@
 .bgIma{
-    background-image: url(../public/filas.png);
+    background-image: url(/filas.png);
     background-position: center;
     background-size: contain;
 }
@@ -14,7 +14,7 @@
     transform: translateY(0);
 }
 .bgIma{
-    background-image: url(../public/filas.png);
+    background-image: url(/filas.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
