@@ -4,28 +4,27 @@ import "../stylesheet/Valores.css"
 const valores = [
     {
         titulo: "Sostenibilidad",
-        fondo: "Fondo",
+        fondo: "fondoval",
         texto: "Compromiso con la protección y conservación del medio ambiente mediante la promoción de prácticas responsables que permitan satisfacer las necesidades actuales sin comprometer los recursos y oportunidades de las futuras generaciones."
     },
     {
         titulo: "Transparencia",
-        fondo: "Fondo2",
+        fondo: "fondoval2",
         texto: "Principio que promueve la comunicación clara, honesta y basada en información verificable sobre las causas, consecuencias y posibles soluciones al calentamiento global, facilitando la comprensión y la toma de decisiones informadas por parte de la comunidad."
     },
     {
         titulo: "Innovación verde",
-        fondo: "Fondo3",
+        fondo: "fondoval3",
         texto: "Capacidad de desarrollar y aplicar ideas, herramientas y estrategias creativas que contribuyan a la reducción del impacto ambiental, fomentando alternativas sostenibles y nuevas formas de sensibilizar a la población sobre los desafíos climáticos."
     },
     {
         titulo: "Responsabilidad",
-        fondo: "Fondo4",
+        fondo: "fondoval4",
         texto: "Compromiso individual y colectivo de reconocer el impacto de nuestras acciones sobre el medio ambiente y actuar de manera consciente para reducir los efectos del cambio climático, promoviendo conductas que favorezcan el bienestar social y ecológico."
     }
 ]
 
-export const Valores = ({ Fondo, Fondo2, Fondo3, Fondo4 }) => {
-    const fondos = [Fondo, Fondo2, Fondo3, Fondo4]
+export const Valores = () => {
     const [abierto, setAbierto] = useState(null)
 
     const toggle = (i) => setAbierto(abierto === i ? null : i)
@@ -55,10 +54,10 @@ export const Valores = ({ Fondo, Fondo2, Fondo3, Fondo4 }) => {
                 {valores.map((v, i) => (
                     <div
                         key={i}
-                        className={`card rounded-0 ${fondos[i]} fade-in-scroll`}
+                        className={`card rounded-0 ${v.fondo} fade-in-scroll`}
                         style={{ transitionDelay: `${i * 0.15}s` }}
                     >
-                        <div className="card-body"style={{ color: "#584014" }}>
+                        <div className="card-body" style={{ color: "#584014" }}>
                             <div>{v.titulo}</div>
                             <div
                                 className={`bi bi-caret-down-fill valor-flecha ${abierto === i ? "rotada" : ""}`}
@@ -67,8 +66,8 @@ export const Valores = ({ Fondo, Fondo2, Fondo3, Fondo4 }) => {
                             ></div>
                         </div>
                         <div className={`valor-desplegable ${abierto === i ? "abierto" : ""}`}>
-                            <p className="p-3 mb-0"style={{ color: "#4c3c18" }}>
-                                {v.emoji} {v.texto}
+                            <p className="p-3 mb-0" style={{ color: "#4c3c18" }}>
+                                {v.texto}
                             </p>
                         </div>
                     </div>
