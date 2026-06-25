@@ -1,17 +1,17 @@
-
-.bg-fact2{
-    background-image: url(../public/fabrica2.png);
+.bg-fact2 {
+    background-image: url(/fabrica2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
 }
-.bg-fact3{
-    background-image: url(../public/fabrica3.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position:center;
 
+.bg-fact3 {
+    background-image: url(/fabrica3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .fade-in-scroll {
     opacity: 0;
     transform: translateY(30px);
@@ -22,4 +22,3 @@
     opacity: 1;
     transform: translateY(0);
 }
-

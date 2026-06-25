@@ -1,10 +1,9 @@
 .bg-img {
-    background-image: url(../public/fabrica1.png);
+    background-image: url(/fabrica1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
-
 .logo-hover {
     cursor: pointer;
 }
