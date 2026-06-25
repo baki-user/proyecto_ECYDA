@@ -1,20 +1,20 @@
 .fondoval{
-    background-image: url(../public/valor1.png);
+    background-image: url(/valor1.png);
     background-position: center;
     background-size: cover;
 }
 .fondoval2{
-    background-image: url(../public/valor2.png);
+    background-image: url(/valor2.png);
     background-position: center;
     background-size: cover;
 }
 .fondoval3{
-    background-image: url(../public/valor3.png);
+    background-image: url(/valor3.png);
     background-position: center;
     background-size: cover;
 }
 .fondoval4{
-    background-image: url(../public/valor4.png);
+    background-image: url(/valor4.png);
     background-position: center;
     background-size: cover;
 }
