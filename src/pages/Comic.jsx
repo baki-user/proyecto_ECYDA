@@ -265,6 +265,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                             >
                                 Iniciar
                             </button>
+                            <a href="./Comic ECYDA/escenarios/Index.html">Iniciar</a>
                         </div>
                     </div>
                 </div>
