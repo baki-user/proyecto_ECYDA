@@ -241,7 +241,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                             }}
                         >
                             <button
-                                onClick={() => window.open("/Comic ECYDA/escenarios/Index.html", "_blank")}
+                                onClick={() => window.open("Comic ECYDA/escenarios/Index.html", "_blank")}
                                 style={{
                                     padding: "12px 40px",
                                     fontSize: "1.2rem",
