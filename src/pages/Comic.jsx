@@ -198,9 +198,55 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                 </div>
             </div>
 
-            <div className="container my-5 p-4 border rounded shadow-sm" style={{ maxWidth: "900px" }}>
+            <div className="container my-5 p-4 border rounded shadow-sm"
+                style={{ maxWidth: "900px" }}>
                 <div className="row g-3">
-                    <img src="../portada-comic.gif" width="60" className="mb-2 fade-in-scroll" />
+                    <div style={{ position: "relative", width: "100%" }}>
+                        <img
+                            src="../portada-comic.gif"
+                            alt="Portada del cómic"
+                            style={{ width: "100%", display: "block", borderRadius: "8px" }}
+                        />
+                        <div
+                            style={{
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                width: "100%",
+                                height: "100%",
+                                backgroundColor: "rgba(0, 0, 0, 0.55)",
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center",
+                                borderRadius: "8px",
+                            }}
+                        >
+                            <button
+                                style={{
+                                    padding: "12px 40px",
+                                    fontSize: "1.2rem",
+                                    fontWeight: "bold",
+                                    backgroundColor: "transparent",
+                                    color: "#fff",
+                                    border: "2px solid #fff",
+                                    borderRadius: "6px",
+                                    cursor: "pointer",
+                                    letterSpacing: "1px",
+                                    transition: "all 0.3s ease",
+                                }}
+                                onMouseOver={(e) => {
+                                    e.target.style.backgroundColor = "#fff";
+                                    e.target.style.color = "#000";
+                                }}
+                                onMouseOut={(e) => {
+                                    e.target.style.backgroundColor = "transparent";
+                                    e.target.style.color = "#fff";
+                                }}
+                            >
+                                INICIAR
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
