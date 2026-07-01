@@ -101,7 +101,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                 <p style={{ fontSize: "1.6rem", fontWeight: "bold", color: "#005b15" }}>Revista digital</p>
                 <a href="https://indd.adobe.com/view/b2c06154-7dcb-4e16-bfab-dcbf130db4e5" target="_blank" rel="noopener noreferrer">
                     <img
-                        src="public/revista.svg"
+                        src="revista.svg"
                         alt="Descripción de la imagen"
                         className="fade-in-scroll logo-hover"
                         style={{
