@@ -97,6 +97,25 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                     </div>
                 </section>
             </div>
+            <div className="container  text-center">
+                <p style={{ fontSize: "1.6rem", fontWeight: "bold", color: "#005b15" }}>Revista digital</p>
+                <a href="https://indd.adobe.com/view/b2c06154-7dcb-4e16-bfab-dcbf130db4e5" target="_blank" rel="noopener noreferrer">
+                    <img
+                        src="public/revista.svg"
+                        alt="Descripción de la imagen"
+                        className="fade-in-scroll logo-hover"
+                        style={{
+                            maxWidth: "200px",
+                            width: "100%",
+                            cursor: "pointer",
+                            borderRadius: "8px",
+                            transition: "transform 0.3s ease",
+                        }}
+                        onMouseOver={(e) => (e.target.style.transform = "scale(1.03)")}
+                        onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
+                    />
+                </a>
+            </div>
 
             <div className="container mt-4">
                 <div className="card-body text-center">
@@ -222,6 +241,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                             }}
                         >
                             <button
+                                onClick={() => window.open("/Comic ECYDA/escenarios/Index.html", "_blank")}
                                 style={{
                                     padding: "12px 40px",
                                     fontSize: "1.2rem",
