@@ -263,7 +263,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                                     e.target.style.color = "#fff";
                                 }}
                             >
-                                INICIAR
+                                Iniciar
                             </button>
                         </div>
                     </div>
