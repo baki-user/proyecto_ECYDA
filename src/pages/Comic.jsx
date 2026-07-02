@@ -240,7 +240,31 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                                 borderRadius: "8px",
                             }}
                         >
-
+                            <a
+                                href="https://comic-ecyda.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    padding: "1rem 3rem",
+                                    fontSize: "1.4rem",
+                                    fontWeight: "bold",
+                                    color: "#fff",
+                                    backgroundColor: "#005b15",
+                                    borderRadius: "50px",
+                                    textDecoration: "none",
+                                    transition: "transform 0.2s ease, background 0.2s ease",
+                                }}
+                                onMouseOver={(e) => {
+                                    e.target.style.backgroundColor = "#00801e";
+                                    e.target.style.transform = "scale(1.08)";
+                                }}
+                                onMouseOut={(e) => {
+                                    e.target.style.backgroundColor = "#005b15";
+                                    e.target.style.transform = "scale(1)";
+                                }}
+                            >
+                                Iniciar
+                            </a>
                         </div>
                     </div>
                 </div>
