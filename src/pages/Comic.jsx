@@ -240,32 +240,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                                 borderRadius: "8px",
                             }}
                         >
-                            <button
-                                onClick={() => window.open(encodeURI("/Comic ECYDA/escenarios/Index.html"), "_blank")}
-                                style={{
-                                    padding: "12px 40px",
-                                    fontSize: "1.2rem",
-                                    fontWeight: "bold",
-                                    backgroundColor: "transparent",
-                                    color: "#fff",
-                                    border: "2px solid #fff",
-                                    borderRadius: "6px",
-                                    cursor: "pointer",
-                                    letterSpacing: "1px",
-                                    transition: "all 0.3s ease",
-                                }}
-                                onMouseOver={(e) => {
-                                    e.target.style.backgroundColor = "#fff";
-                                    e.target.style.color = "#000";
-                                }}
-                                onMouseOut={(e) => {
-                                    e.target.style.backgroundColor = "transparent";
-                                    e.target.style.color = "#fff";
-                                }}
-                            >
-                                Iniciar
-                            </button>
-                            <a href="./Comic ECYDA/escenarios/Index.html">Iniciar</a>
+
                         </div>
                     </div>
                 </div>
